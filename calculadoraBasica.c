@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//Grupo Suarez Joaquin y Toyos Mateo
 int sumar(int a, int b);
 int restar(int a, int b);
 int multiplicar(int a, int b);
