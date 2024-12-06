@@ -6,7 +6,7 @@ int multiplicar(int a, int b);
 
 int main() {
     int opcion;
-    int num1, num2, resultado;
+    int a, b, resultado;
 
     do {
         printf("\n=== Calculadora Basica ===\n");
@@ -27,8 +27,13 @@ int main() {
                 break;
 
             case 2:
-                resultado = restar(0, 0);
-                printf("Resultado de la resta: \n\n");
+
+            printf("Ingrese el primer nummero: \n");
+            scanf("%d",&a);
+            printf("Ingrese el segundo nummero: \n");
+            scanf("%d",&b);
+                resultado = restar(a, b);
+                printf("Resultado de la resta:%d", resultado);
                 break;
 
             case 3:
@@ -55,7 +60,9 @@ int sumar(int a, int b) {
 }
 
 int restar(int a, int b) {
-    return 0;
+    
+
+    return a-b;
 }
 
 int multiplicar(int a, int b) {
